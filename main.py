@@ -5,7 +5,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # opens and stores a csv file as a dataframe using pandas
 df = pd.read_csv('price_history.csv')
