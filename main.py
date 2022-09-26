@@ -42,7 +42,9 @@ The first group of cryptocurrencies to examine are: Litecoin (LTC), Dogecoin (DO
 
 # Creates Charts
 for i in range(0, len(names1)):
-    charts.append(alt.Chart(df).mark_line().encode(x='Date', y=f'{names1[i]}').properties(title=f'{names1[i]}'))
+    charts.append(alt.Chart(df).mark_line().encode(
+        x=alt.X('Date', axis=alt.Axis(format="%Y %B")),
+        y=f'{names1[i]}').properties(title=f'{names1[i]}'))
     st.altair_chart(charts[i], use_container_width=True)
 # TO-DO: Adjust the X-axis to make sure it only shows years.
 # TO-DO: Make 1 box where you look at the charts 1 by 1. Click Next to scroll through the charts.
@@ -67,7 +69,9 @@ The second group of cryptocurrencies to examine are: Tron (TRX), Chainlink (LINK
 names2 = ["TRX-BTC", "LINK-BTC", "ADA-BTC", "BNB-BTC", "DOT-BTC", "MATIC-BTC", "SOL-BTC"]
 charts = []
 for i in range(0, len(names2)):
-    charts.append(alt.Chart(df).mark_line().encode(x='Date', y=f'{names2[i]}').properties(title=f'{names2[i]}'))
+    charts.append(alt.Chart(df).mark_line().encode(
+        x=alt.X('Date', axis=alt.Axis(format="%Y %B")),
+        y=f'{names2[i]}').properties(title=f'{names2[i]}'))
     st.altair_chart(charts[i], use_container_width=True)
 st.write("Many of the charts relate closely to those shown in group 1. They start with an initial hype cycle, then struggle to recover to make new all time highs. A subtle observation here is that LINK slowly and steadily increased until it exploded upwards around August 2020. The most obvious chart here is BNB with the price exploded upwards in late 2021 and continues to hold strong.")
 st.write(
