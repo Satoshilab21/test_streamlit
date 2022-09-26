@@ -23,7 +23,7 @@ st.write("_**DISCLAIMER**: The following information is not not financial advice
 st.write("**NOTE**: This article was initially written on 9/26/2022. However, I have designed the charts in it to update over time. This will help show whether or not the initial thesis holds up over the coming years.")
 
 # Introduction
-st.write(open(f'\text\Intro.txt', 'r').read())
+st.write(open(f'text/Intro.txt', 'r').read())
 
 
 # SECTION 1
