@@ -8,4 +8,4 @@ To answer this question, first let us take a look at how the crypto space has ev
 
 Since BTC is the oldest assest in the space, each of the assests analyzed can be priced in terms of BTC at all points in their development. We will look at how the assets perform during the early stages, initial hype cycle, crypto bear markets, and crypto bull markets. The advantage that BTC denomination provides, is that we can identify when the assests generally outperform BTC and when they generally do not outperform BTC. In my opinion, this allows us to distinguish assets increasing in USD price due to general crypto bull market versus the projects own merits.
 
-Lastly, please note that I am writing this assuming that most cryptocurrencies participants are not skilled enough to be traders. This strategy is aimed at those planning to hold for long periods of time (5+ years).
+Please note that I am writing this assuming that most cryptocurrencies participants are not skilled enough to be traders. This strategy is aimed at those planning to hold for long periods of time (5+ years).
