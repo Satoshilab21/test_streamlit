@@ -17,13 +17,13 @@ names = ["ETH-BTC", "LTC-BTC", "XRP-BTC", "DOGE-BTC", "MATIC-BTC",
 st.header("Chase the Dragon or Hodl the Bag")
 
 # Disclaimer
-st.write("_**DISCLAIMER**: the following information is not not financial advice. This article is entirely educational in nature and should not not be taken as financial advice_")
+st.write("_**DISCLAIMER**: The following information is not not financial advice. This article is entirely educational in nature and should not not be taken as financial advice_")
 
 # NOTE:
 st.write("**NOTE**: This article was initially written on 9/26/2022. However, I have designed the charts in it to update over time. This will help show whether or not the initial thesis holds up over the coming years.")
 
 # Introduction
-st.write(open(f'text\Intro.txt', 'r').read())
+st.write(open(f'\text\Intro.txt', 'r').read())
 
 
 # SECTION 1
